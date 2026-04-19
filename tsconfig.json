@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./shell-e2e"
+    },
+    {
+      "path": "./shell"
+    },
+    {
+      "path": "./product-e2e"
+    },
+    {
+      "path": "./product"
+    }
+  ]
+}
